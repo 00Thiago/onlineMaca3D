@@ -1,0 +1,12 @@
+.git
+.gitignore
+README.md
+README-docker.md
+LICENSE
+Dockerfile
+docker-compose.yml
+.dockerignore
+node_modules
+npm-debug.log*
+.npm
+run-local.sh 

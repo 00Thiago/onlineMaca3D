@@ -1,0 +1,18 @@
+{
+  "name": "online-maca-3d",
+  "version": "1.0.0",
+  "description": "Visualizador 3D usando Three.js",
+  "main": "main.js",
+  "scripts": {
+    "start": "http-server . -p 8080 -a 0.0.0.0 --cors",
+    "start:local": "http-server . -p 8080 -a localhost --cors",
+    "dev": "http-server . -p 8080 -a localhost --cors -o",
+    "install-server": "npm install -g http-server"
+  },
+  "keywords": ["threejs", "3d", "visualizer", "webgl"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+} 
