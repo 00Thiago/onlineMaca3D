@@ -1,0 +1,9 @@
+services:
+  visualizador-3d:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/app
+    container_name: online-maca-3d
+    restart: unless-stopped 
